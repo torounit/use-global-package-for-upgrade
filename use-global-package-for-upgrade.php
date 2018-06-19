@@ -13,3 +13,8 @@
  */
 
 // Your code starts here.
+
+
+add_filter( 'core_version_check_locale', function () {
+	return 'en_US';
+});
